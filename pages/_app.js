@@ -1,17 +1,12 @@
-import "../styles/globals.css";
-import Head from 'next/head'  
+import "../styles/globals.scss";
 
-function MyApp({ Component, pageProps }) {
+function App({ Component, pageProps }) {
 
   return (
     <div className={"main-wrapper-of-the-app"}>
-       <Head>
-        <title>Clubhouse</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
       <Component {...pageProps} />
     </div>
   );
 }
 
-export default MyApp;
+export default App;

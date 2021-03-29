@@ -1,19 +1,18 @@
 
-import styles from '../styles/Home.module.css'
-import Link from "next/link";
-
+import {WelcomeStep} from '../components/steps/WelcomeStep';
+import Head from "next/head";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
+      <Head>
+        <meta name= "viewport" content="wisth=device-width, initial-scale-1.0" />
+        <title>Clubhouse: Drop-in audio chat</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap" rel="stylesheet" />
+      </Head>
      
-        <h1>Main page</h1>
-        <Link href="/room">
-          <a>
-          To the white room
-          </a>
-          </Link>
-
+       <WelcomeStep />
     </div>
   )
 }

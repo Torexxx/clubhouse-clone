@@ -1,18 +1,18 @@
-import {WhiteBlock} from '../../WhiteBlock';
-import {Button} from '../../Button';
+import {WhiteBlock} from '../WhiteBlock';
+import {Button} from '../Button';
 
 import styles from './WelcomeStep.module.scss'
 
 
 export const WelcomeStep = () => {
     return (
-        <WhiteBlock className={styles.title}>
+        <WhiteBlock className={styles.block}>
             <h3 className = {styles.title}>
                 <img className={styles.handWaveImg} src="/static/hand-wave.png" alt="Celebration" />
                 Welcome to Clubhouse
             </h3>
             <p>
-               text
+            Hey, we're still opening up but anyone can join with an invite from an existing user!
             </p>
             <div>
                 <Button>
