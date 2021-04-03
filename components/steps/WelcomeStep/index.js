@@ -1,5 +1,5 @@
-import {WhiteBlock} from '../WhiteBlock';
-import {Button} from '../Button';
+import {WhiteBlock} from '../../WhiteBlock';
+import {Button} from '../../Button';
 
 import styles from './WelcomeStep.module.scss'
 

@@ -1,10 +1,10 @@
-import styles from "../../styles/Home.module.css";
+// import styles from "../../styles/Home.module.css";
 import Link from "next/link";
 
 
 export default function Room() {
   return (
-    <div className={styles.container}>
+    <div>
    
       <h1> This is a white room</h1>
       <Link href="/">
